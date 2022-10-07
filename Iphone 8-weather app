@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      text-align: center;
+      background-image: url(http://wallpapercave.com/wp/ZzQWCHl.jpg);
+    }
+    .header {
+      line-height: 1.5px;
+    }
+    .button {
+      color: whitesmoke;
+      font-size: 26px;
+      font-weight: normal;
+      text-align: center;
+      background: #05260e;
+    }
+    button:hover {
+      background: black;
+      color: whitesmoke;
+      cursor: pointer;
+    }
+    h2 {
+      font-size: 35px;
+      color: whitesmoke;
+      font-weight: lighter;
+    }
+    h1 {
+      font-size: 90px;
+      color: whitesmoke;
+      font-weight: lighter;
+    }
+    h3 {
+      font-size: 22px;
+      color: whitesmoke;
+      font-weight: lighter;
+    }
+    p {
+      font-size: large;
+      color: whitesmoke;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      list-style: none;
+      text-align: center;
+      padding: 10px 0;
+      border-radius: 10px;
+      transition: all 200ms ease-in-out;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    li:hover {
+      padding: 10px 0;
+      background: #68bdd5;
+      border-radius: 10px;
+      transition: all 200ms ease-in;
+    }
+
+    .temp {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    h4 {
+      font-size: 13px;
+      color: beige;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <h2>🌧</h2>
+      <h2>Toronto</h2>
+      <h1>19°</h1>
+      <h3>Drizzle</h3>
+      <h3>H:20° L:13°</h3>
+    </div>
+
+    <ul>
+      <li>
+        <h3>⛈ Fri</h3>
+        <p>6° - <strong>16°</strong></p>
+      </li>
+      <br /><br />
+      <li>
+        <h3>🌤 Sat</h3>
+        <p>5° - <strong>12°</strong></p>
+      </li>
+      <br /><br />
+      <li>
+        <h3>🌨 Sun</h3>
+        <p>1° - <strong>2°</strong></p>
+      </li>
+      <br />
+    </ul>
+
+    <button>Change City</button>
+    <br />
+
+    <h4>Coded by Claudia Morgan</h4>
+  </body>
+</html>
